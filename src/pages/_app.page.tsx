@@ -65,7 +65,7 @@ const spaceGrotesk = localFont({
 });
 
 const App = ({ Component, pageProps }: AppProps) => {
-  const router = useRouter()
+  const router = useRouter() // Todo
 
   return (
     <ContentfulLivePreviewProvider
