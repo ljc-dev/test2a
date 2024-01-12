@@ -17,6 +17,7 @@ const Page = (props: InferGetServerSidePropsType<typeof getServerSideProps>) => 
     <>
       {page.seoFields && <SeoFields {...page.seoFields} />}
       <HeroBanner {...page} />
+      <h1 className="">Old version</h1>
       {page.productsCollection?.items && (
         <Box
           mt={{
